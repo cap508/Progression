@@ -2,14 +2,6 @@
 \usepackage[paper=a4paper,margin=1in]{geometry}% 
 
 
-% Note that to use this font use the XElatex Compiler (Menu in Overleaf)
-\usepackage{fontspec}
-\setmainfont[
-BoldFont=Calibri Bold.ttf,
-ItalicFont=Calibri Italic.ttf,
-BoldItalicFont=Calibri Bold Italic.ttf,
-]{Calibri.ttf}
-
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \graphicspath{ {./images/} }
@@ -24,7 +16,6 @@ BoldItalicFont=Calibri Bold Italic.ttf,
     citecolor=blue
 }
 
-\usepackage{sectsty}
 
 \usepackage{booktabs}
 \usepackage{array}
@@ -32,7 +23,6 @@ BoldItalicFont=Calibri Bold Italic.ttf,
 
 \usepackage{lscape}
 
-\usepackage{todonotes}
 \usepackage{url} 
 
 \usepackage{titlesec} % for spacing around headings
@@ -76,7 +66,6 @@ BoldItalicFont=Calibri Bold Italic.ttf,
 %\input{aretefactdef.tex}
 
 
-\sectionfont{\fontsize{20}{15}\selectfont}
 
 \begin{document}
 
@@ -134,8 +123,8 @@ For \textbf{\emph{IGGI PhD}} researchers only - please provide the following for
 
 \section{Planning}
 \begin{itemize}
-    \item Your plan for the next year of study, broken down into tasks, including a timeline figure of when the tasks will be tackled (a gantt chart is recommended as shown in Figure~\ref{tab:Gantt})
-    \item A table of risks, with their likelihood / severity / mitigations (include technical risks as shown in Table~\ref{tab:Risks})
+    \item Your plan for the next year of study, broken down into tasks, including a timeline figure of when the tasks will be tackled (a gantt chart is recommended as shown in Figure~\ref{fig:Gantt})
+    \item A table of risks, with their likelihood / severity / mitigation (include technical risks as shown in Table~\ref{tab:Risks})
 \end{itemize}
 
 \begin{table}
